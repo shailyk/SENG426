@@ -40,8 +40,8 @@ public class OfficeHelpTest extends TestCase{
     }	
 	}
 
-	public void test_redirectOutput() {
-	try {
+  public void test_redirectOutput() {
+    try {
      OfficeHelp.redirectOutput();
     }
     catch (Exception ex) {
